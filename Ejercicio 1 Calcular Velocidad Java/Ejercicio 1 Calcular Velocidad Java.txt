@@ -1,0 +1,29 @@
+package ejer_1;
+
+import java.util.Scanner;
+
+public class Ejer_1 {
+    
+    Scanner lector = new Scanner(System.in);
+    
+public Ejer_1() {
+    
+    double distancia, tiempo, velocidad;
+    
+    System.out.println("Ingrese la distancia en km: ");
+    distancia = lector.nextDouble();
+    System.out.println("Ingrese el tiempo en horas: ");
+    altura_cono = lector.nextDouble();
+        
+    velocidad=distancia*tiempo
+    
+    
+    System.out.println("La velocidad en km*h es = "+velocidad);
+        
+}
+    
+    public static void main(String[] args) {
+        Ejer_1 solucion = new Ejer_1();
+    }
+    
+}
